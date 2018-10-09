@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+F:/源码/googletest-master/googlemock/CMakeLists.txt
+F:/源码/googletest-master/googlemock/cmake/gmock.pc.in
+F:/源码/googletest-master/googlemock/cmake/gmock_main.pc.in

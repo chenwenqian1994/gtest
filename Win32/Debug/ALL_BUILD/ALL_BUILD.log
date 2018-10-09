@@ -1,0 +1,10 @@
+﻿生成启动时间为 2018/10/8 17:18:00。
+     1>项目“F:\源码\gtest_test\ALL_BUILD.vcxproj”在节点 3 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/源码/googletest-master/CMakeLists.txt
+         CMake does not need to re-run because F:/婧愮爜/gtest_test/CMakeFiles/generate.stamp is up-to-date.
+     1>已完成生成项目“F:\源码\gtest_test\ALL_BUILD.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.41

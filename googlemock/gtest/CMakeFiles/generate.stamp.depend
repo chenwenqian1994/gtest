@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+F:/源码/googletest-master/googletest/CMakeLists.txt
+F:/源码/googletest-master/googletest/cmake/Config.cmake.in
+F:/源码/googletest-master/googletest/cmake/gtest.pc.in
+F:/源码/googletest-master/googletest/cmake/gtest_main.pc.in
+F:/源码/googletest-master/googletest/cmake/internal_utils.cmake
+G:/CMake/share/cmake-3.12/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+G:/CMake/share/cmake-3.12/Modules/CMakePackageConfigHelpers.cmake
+G:/CMake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+G:/CMake/share/cmake-3.12/Modules/FindPackageMessage.cmake
+G:/CMake/share/cmake-3.12/Modules/FindPythonInterp.cmake
+G:/CMake/share/cmake-3.12/Modules/WriteBasicConfigVersionFile.cmake

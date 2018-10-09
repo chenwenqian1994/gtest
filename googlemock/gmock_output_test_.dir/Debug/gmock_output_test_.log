@@ -1,0 +1,234 @@
+﻿生成启动时间为 2018/10/8 21:05:50。
+     1>项目“F:\源码\gtest_test\googlemock\gmock_output_test_.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\源码\googletest-master\googlemock\include" /I"F:\源码\googletest-master\googlemock" /I"F:\源码\googletest-master\googletest\include" /I"F:\源码\googletest-master\googletest" /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /D _WIN32 /D STRICT /D WIN32_LEAN_AND_MEAN /D GTEST_HAS_PTHREAD=0 /D _HAS_EXCEPTIONS=1 /D GTEST_LINKED_AS_SHARED_LIBRARY=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"gmock_output_test_.dir\Debug\\" /Fd"gmock_output_test_.dir\Debug\vc140.pdb" /Gd /TP /wd4251 /wd4275 /wd4702 /analyze- /errorReport:prompt  -J -bigobj "F:\源码\googletest-master\googlemock\test\gmock_output_test_.cc"
+         gmock_output_test_.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): error C2672: 'std::invoke': no matching overloaded function found
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(210): note: see reference to function template instantiation '_Rx std::_Invoke_ret<_Rx,_Callable&,const std::string&,_Ty,double>(std::_Forced<_Rx,false>,_Callable &,const std::string &,_Ty &&,double &&)' being compiled
+                 with
+                 [
+                     _Rx=char,
+                     _Callable=_Decayed,
+                     _Ty=int
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(208): note: while compiling class template member function 'char std::_Func_impl<_Decayed,_Alloc,_Ret,A1,A2,A3>::_Do_call(const std::string &,A2 &&,A3 &&)'
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=char,
+                     A1=const std::string &,
+                     A2=int,
+                     A3=double
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(136): note: see reference to class template instantiation 'std::_Func_impl<_Decayed,_Alloc,_Ret,A1,A2,A3>' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=char,
+                     A1=const std::string &,
+                     A2=int,
+                     A3=double
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(339): note: see reference to class template instantiation 'std::_Is_large<_Myimpl>' being compiled
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2,A3>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=char,
+                     A1=const std::string &,
+                     A2=int,
+                     A3=double,
+                     _Ty=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2,A3>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=char,
+                     A1=const std::string &,
+                     A2=int,
+                     A3=double,
+                     _Ty=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2,A3>::_Reset<testing::internal::DoDefaultAction>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=char,
+                     A1=const std::string &,
+                     A2=int,
+                     A3=double,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2,A3>::_Reset<testing::internal::DoDefaultAction>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=char,
+                     A1=const std::string &,
+                     A2=int,
+                     A3=double,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=char (const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,int,double),
+                     G=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=char (const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,int,double),
+                     G=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(905): note: see reference to function template instantiation 'testing::Action<F>::Action<testing::internal::DoDefaultAction,void>(G &&)' being compiled
+                 with
+                 [
+                     F=char (const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,int,double),
+                     G=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(905): note: see reference to function template instantiation 'testing::Action<F>::Action<testing::internal::DoDefaultAction,void>(G &&)' being compiled
+                 with
+                 [
+                     F=char (const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,int,double),
+                     G=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(894): note: while compiling class template member function 'testing::internal::TypedExpectation<F>::TypedExpectation(testing::internal::FunctionMockerBase<F> *,const char *,int,const std::string &,const std::tuple<testing::Matcher<const std::string&>,testing::Matcher<A2>,testing::Matcher<FloatType>> &)'
+                 with
+                 [
+                     F=char (const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,int,double),
+                     A2=int,
+                     FloatType=double
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(1625): note: see reference to function template instantiation 'testing::internal::TypedExpectation<F>::TypedExpectation(testing::internal::FunctionMockerBase<F> *,const char *,int,const std::string &,const std::tuple<testing::Matcher<const std::string&>,testing::Matcher<A2>,testing::Matcher<FloatType>> &)' being compiled
+                 with
+                 [
+                     F=char (const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,int,double),
+                     A2=int,
+                     FloatType=double
+                 ]
+         F:\源码\googletest-master\googlemock\test\gmock_output_test_.cc(164): note: see reference to class template instantiation 'testing::internal::TypedExpectation<F>' being compiled
+                 with
+                 [
+                     F=char (const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &,int,double)
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): error C2893: Failed to specialize function template 'unknown-type std::invoke(_Callable &&,_Types &&...)'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): note: With the following template arguments:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): note: '_Callable=_Decayed &'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): note: '_Types={const std::string &, int, double}'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): error C2672: 'std::invoke': no matching overloaded function found
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(210): note: see reference to function template instantiation 'void std::_Invoke_ret<_Rx,_Callable&,_Ty,_Ty>(std::_Forced<_Rx,true>,_Callable &,_Ty &&,_Ty &&)' being compiled
+                 with
+                 [
+                     _Rx=void,
+                     _Callable=_Decayed,
+                     _Ty=int
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(208): note: while compiling class template member function 'void std::_Func_impl<_Decayed,_Alloc,_Ret,A1,A2>::_Do_call(A1 &&,A2 &&)'
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=void,
+                     A1=int,
+                     A2=int
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(136): note: see reference to class template instantiation 'std::_Func_impl<_Decayed,_Alloc,_Ret,A1,A2>' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=void,
+                     A1=int,
+                     A2=int
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(339): note: see reference to class template instantiation 'std::_Is_large<_Myimpl>' being compiled
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     A1=int,
+                     A2=int,
+                     _Ty=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     A1=int,
+                     A2=int,
+                     _Ty=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2>::_Reset<testing::internal::DoDefaultAction>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     A1=int,
+                     A2=int,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret,A1,A2>::_Reset<testing::internal::DoDefaultAction>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     A1=int,
+                     A2=int,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=void (int,int),
+                     G=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=void (int,int),
+                     G=testing::internal::DoDefaultAction,
+                     _Fx=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(905): note: see reference to function template instantiation 'testing::Action<F>::Action<testing::internal::DoDefaultAction,void>(G &&)' being compiled
+                 with
+                 [
+                     F=void (int,int),
+                     G=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(905): note: see reference to function template instantiation 'testing::Action<F>::Action<testing::internal::DoDefaultAction,void>(G &&)' being compiled
+                 with
+                 [
+                     F=void (int,int),
+                     G=testing::internal::DoDefaultAction
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(894): note: while compiling class template member function 'testing::internal::TypedExpectation<F>::TypedExpectation(testing::internal::FunctionMockerBase<F> *,const char *,int,const std::string &,const std::tuple<testing::Matcher<A2>,testing::Matcher<A2>> &)'
+                 with
+                 [
+                     F=void (int,int),
+                     A2=int
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-spec-builders.h(1625): note: see reference to function template instantiation 'testing::internal::TypedExpectation<F>::TypedExpectation(testing::internal::FunctionMockerBase<F> *,const char *,int,const std::string &,const std::tuple<testing::Matcher<A2>,testing::Matcher<A2>> &)' being compiled
+                 with
+                 [
+                     F=void (int,int),
+                     A2=int
+                 ]
+         F:\源码\googletest-master\googlemock\test\gmock_output_test_.cc(270): note: see reference to class template instantiation 'testing::internal::TypedExpectation<F>' being compiled
+                 with
+                 [
+                     F=void (int,int)
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): error C2893: Failed to specialize function template 'unknown-type std::invoke(_Callable &&,_Types &&...)'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): note: With the following template arguments:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): note: '_Callable=_Decayed &'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): note: '_Types={int, int}'
+     1>已完成生成项目“F:\源码\gtest_test\googlemock\gmock_output_test_.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.34

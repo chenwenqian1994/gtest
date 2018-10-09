@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/10/8 17:17:09。
+     1>项目“F:\源码\gtest_test\googlemock\gtest\gtest_main_no_rtti.vcxproj”在节点 3 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule F:/源码/googletest-master/googletest/CMakeLists.txt
+         CMake does not need to re-run because F:/婧愮爜/gtest_test/googlemock/gtest/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\源码\googletest-master\googletest\include" /I"F:\源码\googletest-master\googletest" /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /D _WIN32 /D STRICT /D WIN32_LEAN_AND_MEAN /D GTEST_HAS_PTHREAD=0 /D _HAS_EXCEPTIONS=1 /D GTEST_CREATE_SHARED_LIBRARY=1 /D "CMAKE_INTDIR=\"Debug\"" /D gtest_main_no_rtti_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"gtest_main_no_rtti.dir\Debug\\" /Fd"gtest_main_no_rtti.dir\Debug\vc140.pdb" /Gd /TP /wd4251 /wd4275 /wd4702 /analyze- /errorReport:prompt  -J "F:\源码\googletest-master\googletest\src\gtest-all.cc" "F:\源码\googletest-master\googletest\src\gtest_main.cc"
+         gtest-all.cc
+         gtest_main.cc
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\源码\gtest_test\googlemock\gtest\Debug\gtest_main_no_rttid.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/源码/gtest_test/googlemock/gtest/Debug/gtest_main_no_rttid.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/源码/gtest_test/googlemock/gtest/Debug/gtest_main_no_rttid.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /DLL "gtest_main_no_rtti.dir\Debug\gtest-all.obj"
+         gtest_main_no_rtti.dir\Debug\gtest_main.obj
+            Creating library F:/源码/gtest_test/googlemock/gtest/Debug/gtest_main_no_rttid.lib and object F:/源码/gtest_test/googlemock/gtest/Debug/gtest_main_no_rttid.exp
+         gtest_main_no_rtti.vcxproj -> F:\源码\gtest_test\googlemock\gtest\Debug\gtest_main_no_rttid.dll
+     1>已完成生成项目“F:\源码\gtest_test\googlemock\gtest\gtest_main_no_rtti.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.78

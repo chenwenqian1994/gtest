@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+F:/源码/googletest-master/CMakeLists.txt
+F:/源码/gtest_test/CMakeFiles/3.12.1/CMakeCCompiler.cmake
+F:/源码/gtest_test/CMakeFiles/3.12.1/CMakeCXXCompiler.cmake
+F:/源码/gtest_test/CMakeFiles/3.12.1/CMakeRCCompiler.cmake
+F:/源码/gtest_test/CMakeFiles/3.12.1/CMakeSystem.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeCInformation.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeCXXInformation.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeCommonLanguageInclude.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeDependentOption.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeGenericSystem.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeInitializeConfigs.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeLanguageInformation.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeRCInformation.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInformation.cmake
+G:/CMake/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake
+G:/CMake/share/cmake-3.12/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+G:/CMake/share/cmake-3.12/Modules/Compiler/MSVC-C.cmake
+G:/CMake/share/cmake-3.12/Modules/Compiler/MSVC-CXX.cmake
+G:/CMake/share/cmake-3.12/Modules/GNUInstallDirs.cmake
+G:/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-C.cmake
+G:/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC-CXX.cmake
+G:/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC.cmake
+G:/CMake/share/cmake-3.12/Modules/Platform/Windows.cmake
+G:/CMake/share/cmake-3.12/Modules/Platform/WindowsPaths.cmake

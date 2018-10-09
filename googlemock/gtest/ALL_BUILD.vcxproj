@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9728AD0-2898-326E-B212-47A5A4662564}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\源码\googletest-master\googletest\include;F:\源码\googletest-master\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\源码\googletest-master\googletest\include;F:\源码\googletest-master\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\源码\googletest-master\googletest\include;F:\源码\googletest-master\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\源码\googletest-master\googletest\include;F:\源码\googletest-master\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\源码\gtest_test\ZERO_CHECK.vcxproj">
+      <Project>{03F73153-7CE1-3A40-B58C-3A5CEE46859E}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-break-on-failure-unittest_.vcxproj">
+      <Project>{3FE61A9A-F614-30A4-B38B-2A67464DF708}</Project>
+      <Name>googletest-break-on-failure-unittest_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-catch-exceptions-ex-test_.vcxproj">
+      <Project>{8827D672-A30B-3980-B4CD-9961D809802D}</Project>
+      <Name>googletest-catch-exceptions-ex-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-catch-exceptions-no-ex-test_.vcxproj">
+      <Project>{09A55AD6-F421-3D66-B056-037D7729DBC6}</Project>
+      <Name>googletest-catch-exceptions-no-ex-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-color-test_.vcxproj">
+      <Project>{29206B9B-1EEB-3BBC-89F5-44D084957E07}</Project>
+      <Name>googletest-color-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-death-test-test.vcxproj">
+      <Project>{95E966DD-D96C-38A4-8E68-0D381FD37954}</Project>
+      <Name>googletest-death-test-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-env-var-test_.vcxproj">
+      <Project>{07285361-2575-3FE4-BD76-9EB1BF7AA267}</Project>
+      <Name>googletest-env-var-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-filepath-test.vcxproj">
+      <Project>{7659B5B1-46C3-337F-951E-A66C7E0E1151}</Project>
+      <Name>googletest-filepath-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-filter-unittest_.vcxproj">
+      <Project>{D70C9B5A-988A-3C71-A04E-3A74B7A9BA08}</Project>
+      <Name>googletest-filter-unittest_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-linked-ptr-test.vcxproj">
+      <Project>{C671E7A6-81D5-3E50-8073-C60C04645150}</Project>
+      <Name>googletest-linked-ptr-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-list-tests-unittest_.vcxproj">
+      <Project>{363991DF-E59A-3013-AA1A-2141E1DCECE6}</Project>
+      <Name>googletest-list-tests-unittest_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-listener-test.vcxproj">
+      <Project>{0A5F5D5C-ACD3-3AFE-AE01-835E229EF89C}</Project>
+      <Name>googletest-listener-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-message-test.vcxproj">
+      <Project>{45DB806F-F913-300F-A9CF-BA54FAE0294A}</Project>
+      <Name>googletest-message-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-options-test.vcxproj">
+      <Project>{F6EB5363-F3D7-3591-A546-096A1C580AEA}</Project>
+      <Name>googletest-options-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-output-test_.vcxproj">
+      <Project>{DF47E8B3-FFB4-3DCB-A01F-56A70369C643}</Project>
+      <Name>googletest-output-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-param-test-test.vcxproj">
+      <Project>{268CF5AC-7B94-34A6-8E00-19EF81F02172}</Project>
+      <Name>googletest-param-test-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-port-test.vcxproj">
+      <Project>{EF35F2B6-BB57-36A3-BE13-D42B8BDF73BA}</Project>
+      <Name>googletest-port-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-printers-test.vcxproj">
+      <Project>{15115820-08EB-3615-90CB-06AE184AB6FB}</Project>
+      <Name>googletest-printers-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-shuffle-test_.vcxproj">
+      <Project>{BD6D7686-9CEE-315C-9812-EBB32A1342EF}</Project>
+      <Name>googletest-shuffle-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-test-part-test.vcxproj">
+      <Project>{AE2AC7E8-AF09-3BEF-9FE6-982354E6B012}</Project>
+      <Name>googletest-test-part-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-throw-on-failure-test_.vcxproj">
+      <Project>{0104F0F0-4DBE-3F52-AE02-C8F60DD51BC8}</Project>
+      <Name>googletest-throw-on-failure-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\googletest-uninitialized-test_.vcxproj">
+      <Project>{7DBDFFDF-819D-3DE9-8B84-94E78F73A09E}</Project>
+      <Name>googletest-uninitialized-test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest.vcxproj">
+      <Project>{2A1070FA-9A5C-38B3-AA3D-FF9EC8D6657D}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest-death-test_ex_catch_test.vcxproj">
+      <Project>{AEAEAF93-D9A9-351A-9C05-66C04BBFFFB0}</Project>
+      <Name>gtest-death-test_ex_catch_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest-death-test_ex_nocatch_test.vcxproj">
+      <Project>{8DAEB659-A75E-3614-93B5-589E16136C29}</Project>
+      <Name>gtest-death-test_ex_nocatch_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest-typed-test_test.vcxproj">
+      <Project>{673F8ED4-5AA6-39EC-8F69-469B74B32A9C}</Project>
+      <Name>gtest-typed-test_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest-unittest-api_test.vcxproj">
+      <Project>{F7D4AD97-A2C5-377B-926D-41412EE2926C}</Project>
+      <Name>gtest-unittest-api_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_dll.vcxproj">
+      <Project>{8E59168B-A2BB-3D43-95E3-A2F903051A75}</Project>
+      <Name>gtest_dll</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_dll_test_.vcxproj">
+      <Project>{08A860F6-BFE0-337D-A445-2263BE4C0E83}</Project>
+      <Name>gtest_dll_test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_environment_test.vcxproj">
+      <Project>{F4B2D23A-4B17-3CB4-B8D1-5460FF57B992}</Project>
+      <Name>gtest_environment_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_help_test_.vcxproj">
+      <Project>{5C4CEA8B-4B31-3DDB-B3DA-79BE09F04E4C}</Project>
+      <Name>gtest_help_test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_main.vcxproj">
+      <Project>{BD7C51D5-C86E-3DD1-AD03-8EEC2294CCDD}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_main_no_exception.vcxproj">
+      <Project>{F5ABF01B-C8AF-361F-BDFF-6F741EAE467E}</Project>
+      <Name>gtest_main_no_exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_main_no_rtti.vcxproj">
+      <Project>{4E85FA95-F28A-334A-BCCC-A4D5075BFBA5}</Project>
+      <Name>gtest_main_no_rtti</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_main_unittest.vcxproj">
+      <Project>{53BF1F00-0413-34AB-8E46-D37A42507234}</Project>
+      <Name>gtest_main_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_no_exception.vcxproj">
+      <Project>{D5ADC4D4-0F1F-3B74-A295-62DC6AD0450F}</Project>
+      <Name>gtest_no_exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_no_rtti_unittest.vcxproj">
+      <Project>{815EDE56-2B39-3A07-ACF1-160FC94DC55E}</Project>
+      <Name>gtest_no_rtti_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_no_test_unittest.vcxproj">
+      <Project>{6E8C8F91-1CD3-33DD-914A-6BBC3ED18C51}</Project>
+      <Name>gtest_no_test_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_pred_impl_unittest.vcxproj">
+      <Project>{CECD3922-4422-3CD6-9E60-6F6559F0D9B0}</Project>
+      <Name>gtest_pred_impl_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_premature_exit_test.vcxproj">
+      <Project>{BAD7B79E-30DB-34C6-AF55-F6434A822782}</Project>
+      <Name>gtest_premature_exit_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_prod_test.vcxproj">
+      <Project>{84D90FC2-E6B9-38C5-8A04-89CE0348961D}</Project>
+      <Name>gtest_prod_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_repeat_test.vcxproj">
+      <Project>{2C401521-5C22-3550-B1B3-A673E0F07F13}</Project>
+      <Name>gtest_repeat_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_sole_header_test.vcxproj">
+      <Project>{9C24AEAB-6B70-3926-9F2E-17C25FBDF77E}</Project>
+      <Name>gtest_sole_header_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_stress_test.vcxproj">
+      <Project>{6C6328FD-8BB9-3CED-B3D2-835529547DAA}</Project>
+      <Name>gtest_stress_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_throw_on_failure_ex_test.vcxproj">
+      <Project>{8386E3AB-4087-3BB3-A6DF-FEA31C9EE5A7}</Project>
+      <Name>gtest_throw_on_failure_ex_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_unittest.vcxproj">
+      <Project>{E7FA7A37-0D90-3152-948A-65FAC6C9B37B}</Project>
+      <Name>gtest_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_xml_outfile1_test_.vcxproj">
+      <Project>{A6186539-9B56-332F-BCFF-E8B5D37B8540}</Project>
+      <Name>gtest_xml_outfile1_test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_xml_outfile2_test_.vcxproj">
+      <Project>{80E40DE8-7803-3AEF-87C6-C384C43FDD25}</Project>
+      <Name>gtest_xml_outfile2_test_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\gtest_xml_output_unittest_.vcxproj">
+      <Project>{13A0308E-15B9-3DB1-8053-DDB045CB5888}</Project>
+      <Name>gtest_xml_output_unittest_</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample10_unittest.vcxproj">
+      <Project>{6C01ADBD-14D6-350A-AE97-39A2FF3C803F}</Project>
+      <Name>sample10_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample1_unittest.vcxproj">
+      <Project>{AFEDF1C8-BD4B-3C51-B00C-A419EE401310}</Project>
+      <Name>sample1_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample2_unittest.vcxproj">
+      <Project>{5100218B-5B87-3C59-A083-6F27E2AF9644}</Project>
+      <Name>sample2_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample3_unittest.vcxproj">
+      <Project>{023488CE-93F4-38B4-9055-61B8DE6544EB}</Project>
+      <Name>sample3_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample4_unittest.vcxproj">
+      <Project>{7D45E879-9670-388E-905A-D22B20497241}</Project>
+      <Name>sample4_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample5_unittest.vcxproj">
+      <Project>{B88E7904-C58E-308F-9C49-3F63BC8F2558}</Project>
+      <Name>sample5_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample6_unittest.vcxproj">
+      <Project>{C835BCA9-4AEB-3758-A60F-EC5E4EC1CB6C}</Project>
+      <Name>sample6_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample7_unittest.vcxproj">
+      <Project>{00526CA0-51B7-352B-82B0-17F1F6491BD7}</Project>
+      <Name>sample7_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample8_unittest.vcxproj">
+      <Project>{FF44E41A-5E99-3118-92E6-4ADFB754EE98}</Project>
+      <Name>sample8_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\源码\gtest_test\googlemock\gtest\sample9_unittest.vcxproj">
+      <Project>{ACBAE794-984C-3AD2-9DEF-8DCD39D3B0AE}</Project>
+      <Name>sample9_unittest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,163 @@
+﻿生成启动时间为 2018/10/8 21:05:45。
+     1>项目“F:\源码\gtest_test\googlemock\gmock-more-actions_no_exception_test.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\源码\googletest-master\googlemock\include" /I"F:\源码\googletest-master\googlemock" /I"F:\源码\googletest-master\googletest\include" /I"F:\源码\googletest-master\googletest" /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _UNICODE /D UNICODE /D _WIN32 /D STRICT /D WIN32_LEAN_AND_MEAN /D GTEST_HAS_PTHREAD=0 /D _HAS_EXCEPTIONS=0 /D GTEST_LINKED_AS_SHARED_LIBRARY=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"gmock-more-actions_no_exception_test.dir\Debug\\" /Fd"gmock-more-actions_no_exception_test.dir\Debug\vc140.pdb" /Gd /TP /wd4251 /wd4275 /wd4702 /analyze- /errorReport:prompt  -J -EHs-c- -bigobj "F:\源码\googletest-master\googlemock\test\gmock-more-actions_test.cc"
+         gmock-more-actions_test.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): error C2672: 'std::invoke': no matching overloaded function found
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(210): note: see reference to function template instantiation '_Rx std::_Invoke_ret<_Rx,_Callable&>(std::_Forced<_Rx,false>,_Callable &)' being compiled
+                 with
+                 [
+                     _Rx=int,
+                     _Callable=_Decayed
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(208): note: while compiling class template member function 'int std::_Func_impl<_Decayed,_Alloc,_Ret>::_Do_call(void)'
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=int
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(136): note: see reference to class template instantiation 'std::_Func_impl<_Decayed,_Alloc,_Ret>' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=int
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(339): note: see reference to class template instantiation 'std::_Is_large<_Myimpl>' being compiled
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=int,
+                     _Ty=testing::ReturnPointeeActionP<int *>,
+                     _Fx=testing::ReturnPointeeActionP<int *>,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=int,
+                     _Ty=testing::ReturnPointeeActionP<int *>,
+                     _Fx=testing::ReturnPointeeActionP<int *>,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<testing::ReturnPointeeActionP<int *>>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=int,
+                     _Fx=testing::ReturnPointeeActionP<int *>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<testing::ReturnPointeeActionP<int *>>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=int,
+                     _Fx=testing::ReturnPointeeActionP<int *>
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=int (void),
+                     G=testing::ReturnPointeeActionP<int *>,
+                     _Fx=testing::ReturnPointeeActionP<int *>
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=int (void),
+                     G=testing::ReturnPointeeActionP<int *>,
+                     _Fx=testing::ReturnPointeeActionP<int *>
+                 ]
+         F:\源码\googletest-master\googlemock\test\gmock-more-actions_test.cc(701): note: see reference to function template instantiation 'testing::Action<int (void)>::Action<testing::ReturnPointeeActionP<int *>,void>(G &&)' being compiled
+                 with
+                 [
+                     G=testing::ReturnPointeeActionP<int *>
+                 ]
+         F:\源码\googletest-master\googlemock\test\gmock-more-actions_test.cc(701): note: see reference to function template instantiation 'testing::Action<int (void)>::Action<testing::ReturnPointeeActionP<int *>,void>(G &&)' being compiled
+                 with
+                 [
+                     G=testing::ReturnPointeeActionP<int *>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): error C2893: Failed to specialize function template 'unknown-type std::invoke(_Callable &&,_Types &&...)'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): note: With the following template arguments:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): note: '_Callable=_Decayed &'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1501): note: '_Types={}'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): error C2672: 'std::invoke': no matching overloaded function found
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(210): note: see reference to function template instantiation 'void std::_Invoke_ret<_Rx,_Callable&,_Ty,std::back_insert_iterator<std::string>>(std::_Forced<_Rx,true>,_Callable &,_Ty &&,std::back_insert_iterator<std::string> &&)' being compiled
+                 with
+                 [
+                     _Rx=void,
+                     _Callable=_Decayed,
+                     _Ty=bool
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(208): note: while compiling class template member function 'void std::_Func_impl<_Decayed,_Alloc,_Ret,bool,std::back_insert_iterator<std::string>>::_Do_call(bool &&,std::back_insert_iterator<std::string> &&)'
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=void
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(136): note: see reference to class template instantiation 'std::_Func_impl<_Decayed,_Alloc,_Ret,bool,std::back_insert_iterator<std::string>>' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<int>,
+                     _Ret=void
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(339): note: see reference to class template instantiation 'std::_Is_large<_Myimpl>' being compiled
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret,bool,std::back_insert_iterator<std::string>>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,
+                     _Fx=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(318): note: see reference to function template instantiation 'void std::_Func_class<_Ret,bool,std::back_insert_iterator<std::string>>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Ty=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,
+                     _Fx=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,
+                     _Alloc=std::allocator<int>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret,bool,std::back_insert_iterator<std::string>>::_Reset<testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Fx=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>
+                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(484): note: see reference to function template instantiation 'void std::_Func_class<_Ret,bool,std::back_insert_iterator<std::string>>::_Reset<testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>>(_Fx &&)' being compiled
+                 with
+                 [
+                     _Ret=void,
+                     _Fx=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=MyFunction,
+                     G=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,
+                     _Fx=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>
+                 ]
+         F:\源码\googletest-master\googlemock\include\gmock/gmock-actions.h(373): note: see reference to function template instantiation 'std::function<F>::function<G>(_Fx)' being compiled
+                 with
+                 [
+                     F=MyFunction,
+                     G=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,
+                     _Fx=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>
+                 ]
+         F:\源码\googletest-master\googlemock\test\gmock-more-actions_test.cc(692): note: see reference to function template instantiation 'testing::Action<MyFunction>::Action<testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,void>(G &&)' being compiled
+                 with
+                 [
+                     G=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>
+                 ]
+         F:\源码\googletest-master\googlemock\test\gmock-more-actions_test.cc(692): note: see reference to function template instantiation 'testing::Action<MyFunction>::Action<testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>,void>(G &&)' being compiled
+                 with
+                 [
+                     G=testing::SetArrayArgumentActionP2<1,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): error C2893: Failed to specialize function template 'unknown-type std::invoke(_Callable &&,_Types &&...)'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): note: With the following template arguments:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): note: '_Callable=_Decayed &'
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1494): note: '_Types={bool, std::back_insert_iterator<std::string>}'
+     1>已完成生成项目“F:\源码\gtest_test\googlemock\gmock-more-actions_no_exception_test.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.79
